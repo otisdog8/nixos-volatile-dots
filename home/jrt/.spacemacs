@@ -63,7 +63,7 @@ This function should only modify configuration layer settings."
      themes-megapack
      theming
      evil-snipe
-     nixos
+     (nixos :variables nixos-format-on-save t)
      systemd
      ranger
      shell-scripts)
